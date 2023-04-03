@@ -1,0 +1,89 @@
+/* 设置全局样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* 设置页眉样式 */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  header nav {
+    margin-top: 10px;
+  }
+
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header ul li {
+    display: inline-block;
+  }
+
+  header ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  header ul li a:hover {
+    background-color: #666;
+  }
+
+  /* 设置主要内容样式 */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  article {
+    margin-bottom: 40px;
+  }
+
+  article h2 {
+    margin-top: 0;
+  }
+
+  article p.date {
+    color: #999;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  article a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  article a:hover {
+    background-color: #666;
+  }
+
+  /* 设置页脚样式 */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  footer p {
+    margin: 0;
+  }
